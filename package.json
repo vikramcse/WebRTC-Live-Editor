@@ -1,0 +1,24 @@
+{
+  "name": "WebRTC-Live-Editor",
+  "version": "1.0.0",
+  "description": "A Live editor using webrtc and node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikramcse/WebRTC-Live-Editor.git"
+  },
+  "keywords": [],
+  "author": "Vikram <vikramcse.10@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikramcse/WebRTC-Live-Editor/issues"
+  },
+  "homepage": "https://github.com/vikramcse/WebRTC-Live-Editor#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.1.4"
+  }
+}

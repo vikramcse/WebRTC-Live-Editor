@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Live Editor</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">WebRTC Live Editor</a>
+				</div>
+				<p class="navbar-text navbar-right">Made by
+					<a href="https://github.com/vikramcse/WebRTC-Live-Editor" class="navbar-link">
+						Vikram
+					</a>
+				</p>
+			</div>
+		</nav>
+		<div class="container">
+			<h3>Yout Peer id is: <span id="peer-id"></span></h3> <br/>
+			Connect to peer: <input type="text" id="receiver-id" palceholder="Enter reciver id">
+			<button id="connect" class="btn btn-primary">Connect</button>
+			<button id="disconnect" class="btn btn-danger">Disconnect</button>
+			<br/><br/>
+
+			<div class="progress">
+				<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" 
+					aria-valuemax="100" style="width: 40%" id="progess">
+				</div>
+			</div>
+
+			<div class="content">
+				<textarea id="area" rows="20" style="width: 50%"></textarea>
+			</div>
+		</div>
+	</body>
+	<script src="http://cdn.peerjs.com/0.3/peer.min.js"></script>
+	<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="app.js"></script>
+</html>
